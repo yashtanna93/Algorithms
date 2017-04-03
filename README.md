@@ -5,4 +5,5 @@ Solution to different algorithmic problems from various websites
 
 ### Java Solution
 [Problem 1 - Two Sum](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem1/Problem1TwoSum.java)</br>
-[Problem 2 - Add Two Numers](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem2/Problem2AddTwoNumbers.java)
+[Problem 2 - Add Two Numers](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem2/Problem2AddTwoNumbers.java)</br>
+[Problem 3 - Longest Substring Without Repeating Characters](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem3/Problem3LengthOfLongestSubstring.java)
