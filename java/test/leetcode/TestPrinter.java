@@ -1,5 +1,6 @@
 package leetcode;
 
+import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
@@ -8,7 +9,8 @@ import org.junit.runner.notification.Failure;
  * @since 12/13/2016
  */
 public class TestPrinter {
-    public static int TEST_NUMBER = 1;
+    private static int TEST_NUMBER = 1;
+
     public static void printResult(Result result) {
         for (Failure failure : result.getFailures()) {
             System.out.println("Failed Test Case - " + failure.getTestHeader());
@@ -21,5 +23,10 @@ public class TestPrinter {
 
     public static void startTest() {
         System.out.println("Starting test " + TEST_NUMBER++ + "...");
+    }
+
+    public static void run(Class myClass) {
+        Result result = JUnitCore.runClasses(myClass);
+        printResult(result);
     }
 }
