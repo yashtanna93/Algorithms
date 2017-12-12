@@ -20,7 +20,7 @@ import java.util.Map;
  * @since 4/2/2017
  */
 public class Problem3LengthOfLongestSubstring {
-    public static int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring(String s) {
         int max = 0;
         Map<Character, Integer> map = new HashMap<>();
         for(int i=0, j=0; j<s.length(); j++) {

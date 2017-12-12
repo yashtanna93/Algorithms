@@ -20,13 +20,13 @@ package leetcode.problems;
  * @since 12/10/17
  */
 public class Problem4MedianOfTwoSortedArrays {
-    public static double findMedianSortedArrays(int[] A, int[] B) {
-        if(A.length > B.length) {
-            return findMedianSortedArrays(B, A);
+    public double findMedianSortedArrays(int[] A, int[] B, int lenA, int lenB) {
+        if(lenA > lenB) {
+            return findMedianSortedArrays(B, A, lenB, lenA);
         }
 
         int low = 0;
-        int high = A.length;
+        int high = lenA;
 
         while(low <= high) {
             int partitionA = (low + high)/2;
@@ -50,6 +50,7 @@ public class Problem4MedianOfTwoSortedArrays {
                 low = partitionA + 1;
             }
         }
+
         throw new IllegalArgumentException();
     }
 }

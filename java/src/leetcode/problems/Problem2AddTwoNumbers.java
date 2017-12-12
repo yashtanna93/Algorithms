@@ -16,12 +16,12 @@ import leetcode.ListNode;
  * @since 4/1/2017
  */
 public class Problem2AddTwoNumbers {
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int carry = 0;
         int netSum;
-        ListNode head = new ListNode(0);
-        ListNode ans = new ListNode(0);
+        ListNode head;
+        ListNode ans;
 
         if(l1!=null&&l2!=null) {
             carry = (l1.val+l2.val)/10;
@@ -34,7 +34,7 @@ public class Problem2AddTwoNumbers {
             ans = new ListNode(l1.val);
             head = ans;
             l1 = l1.next;
-        } else if (l1==null) {
+        } else {
             ans = new ListNode(l2.val);
             head = ans;
             l2 = l2.next;

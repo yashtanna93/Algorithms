@@ -15,7 +15,7 @@ import java.util.HashMap;
  * @since 12/12/2016
  */
 public class Problem1TwoSum {
-    public static int[] twoSum(int[] nums, int target){
+    public int[] twoSum(int[] nums, int target){
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<nums.length; i++) {
             if(map.containsKey(target-nums[i]))

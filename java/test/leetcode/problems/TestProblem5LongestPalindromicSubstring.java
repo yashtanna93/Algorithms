@@ -11,27 +11,29 @@ import org.junit.Test;
  */
 public class TestProblem5LongestPalindromicSubstring {
 
+    Problem5LongestPalindromicSubstring problem5LongestPalindromicSubstring = new Problem5LongestPalindromicSubstring();
+
     @Test
     public void testLongestPalindromicSubstringCase1() {
         startTest();
-        assertEquals(Problem5LongestPalindromicSubstring.longestPalindrome("abaabc"), "baab");
+        assertEquals(problem5LongestPalindromicSubstring.longestPalindrome("abaabc"), "baab");
     }
 
     @Test
     public void testLongestPalindromicSubstringCase2() {
         startTest();
-        assertEquals(Problem5LongestPalindromicSubstring.longestPalindrome("jklollolkidding"), "klollolk");
+        assertEquals(problem5LongestPalindromicSubstring.longestPalindrome("jklollolkidding"), "klollolk");
     }
 
     @Test
     public void testLongestPalindromicSubstringCase3() {
         startTest();
-        assertEquals(Problem5LongestPalindromicSubstring.longestPalindrome("cbbd"), "bb");
+        assertEquals(problem5LongestPalindromicSubstring.longestPalindrome("cbbd"), "bb");
     }
 
     @Test
     public void testLongestPalindromicSubstringCase4() {
         startTest();
-        assertEquals(Problem5LongestPalindromicSubstring.longestPalindrome("ccc"), "ccc");
+        assertEquals(problem5LongestPalindromicSubstring.longestPalindrome("ccc"), "ccc");
     }
 }

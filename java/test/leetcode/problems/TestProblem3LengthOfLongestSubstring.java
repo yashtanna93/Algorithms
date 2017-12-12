@@ -11,21 +11,23 @@ import org.junit.Test;
  */
 public class TestProblem3LengthOfLongestSubstring {
 
+    Problem3LengthOfLongestSubstring problem3LengthOfLongestSubstring = new Problem3LengthOfLongestSubstring();
+
     @Test
     public void testLengthOfLongestSubstringCase1() {
         startTest();
-        assertEquals(Problem3LengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb"), 3);
+        assertEquals(problem3LengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb"), 3);
     }
 
     @Test
     public void testLengthOfLongestSubstringCase2() {
         startTest();
-        assertEquals(Problem3LengthOfLongestSubstring.lengthOfLongestSubstring("bbbb"), 1);
+        assertEquals(problem3LengthOfLongestSubstring.lengthOfLongestSubstring("bbbb"), 1);
     }
 
     @Test
     public void testLengthOfLongestSubstringCase3() {
         startTest();
-        assertEquals(Problem3LengthOfLongestSubstring.lengthOfLongestSubstring("pwwkew"), 3);
+        assertEquals(problem3LengthOfLongestSubstring.lengthOfLongestSubstring("pwwkew"), 3);
     }
 }

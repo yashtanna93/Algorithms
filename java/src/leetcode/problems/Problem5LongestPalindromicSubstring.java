@@ -23,7 +23,7 @@ package leetcode.problems;
  * @since 12/11/17
  */
 public class Problem5LongestPalindromicSubstring {
-    public static String longestPalindrome(String s) {
+    public String longestPalindrome(String s) {
         int len = s.length();
         String ans = "";
 
