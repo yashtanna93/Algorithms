@@ -21,4 +21,6 @@ Solution to different algorithmic problems from various websites
 [Problem 8 - String to Integer](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem8StringToInteger.java)
 </br>
 [Problem 9 - Palindrome Number](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem9PalindromeNumber.java)
+</br>
+[Problem 10 - Regular Expression Matching](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem10RegularExpressionMatching.java)
 
