@@ -2,6 +2,7 @@ package leetcode.problems;
 
 import org.junit.Test;
 
+import static leetcode.TestPrinter.startTest;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -13,11 +14,13 @@ public class TestProblem11ContainerWithMostWater {
 
     @Test
     public void TestProblem11ContainerWithMostWaterCase1() {
+        startTest();
         assertEquals(problem11ContainerWithMostWater.maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}), 49);
     }
 
     @Test
     public void TestProblem11ContainerWithMostWaterCase2() {
+        startTest();
         assertEquals(problem11ContainerWithMostWater.maxArea(new int[]{1, 5, 3, 4, 2, 7, 3, 4}), 24);
     }
 }

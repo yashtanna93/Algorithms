@@ -3,6 +3,7 @@ package leetcode;
 import org.junit.Test;
 
 import static leetcode.TestPrinter.run;
+import static leetcode.TestPrinter.startTest;
 
 import java.io.File;
 import java.util.HashMap;
