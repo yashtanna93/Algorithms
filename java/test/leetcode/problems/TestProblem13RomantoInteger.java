@@ -13,31 +13,31 @@ public class TestProblem13RomantoInteger {
     Problem13RomantoInteger problem13RomantoInteger = new Problem13RomantoInteger();
 
     @Test
-    public void testProblem7ReverseIntegerCase1() {
+    public void testRomantoIntegerCase1() {
         startTest();
         assertEquals(problem13RomantoInteger.romanToInt("DCXXI"), 621);
     }
 
     @Test
-    public void testProblem7ReverseIntegerCase2() {
+    public void testRomantoIntegerCase2() {
         startTest();
         assertEquals(problem13RomantoInteger.romanToInt("MCXIV"), 1114);
     }
 
     @Test
-    public void testProblem7ReverseIntegerCase3() {
+    public void testRomantoIntegerCase3() {
         startTest();
         assertEquals(problem13RomantoInteger.romanToInt("CMCMCM"), 2700);
     }
 
     @Test
-    public void testProblem7ReverseIntegerCase4() {
+    public void testRomantoIntegerCase4() {
         startTest();
         assertEquals(problem13RomantoInteger.romanToInt("XXXXX"), 50);
     }
 
     @Test
-    public void testProblem7ReverseIntegerCase5() {
+    public void testRomantoIntegerCase5() {
         startTest();
         assertEquals(problem13RomantoInteger.romanToInt("MMMMM"), 5000);
     }
