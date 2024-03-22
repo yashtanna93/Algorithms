@@ -1,9 +1,12 @@
 # Algorithms
 Solution to different algorithmic problems from various websites
 
+## CTCI
+
+[Problem 1.1 - isUnique](https://github.com/yashtanna93/Algorithms/blob/master/CTCI/IsUnique.java) 
+
 ## LeetCode
 
-### Java Solution
 [Problem 1 - Two Sum](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem1/Problem1TwoSum.java)
 </br>
 [Problem 2 - Add Two Numers](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problem2/Problem2AddTwoNumbers.java)
@@ -23,4 +26,12 @@ Solution to different algorithmic problems from various websites
 [Problem 9 - Palindrome Number](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem9PalindromeNumber.java)
 </br>
 [Problem 10 - Regular Expression Matching](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem10RegularExpressionMatching.java)
+</br>
+[Problem 11 - Container With Most Water](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem11ContainerWithMostWater.java)
+</br>
+[Problem 12 - Integer to Roman](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem12IntegertoRoman.java)
+</br>
+[Problem 13 - Roman to Integer](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem13RomantoInteger.java)
+</br>
+[Problem 14 - Longest Common Prefix](https://github.com/yashtanna93/Algorithms/blob/master/java/src/leetcode/problems/Problem14LongestCommonPrefix.java)
 
