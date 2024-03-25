@@ -3,7 +3,8 @@ Solution to different algorithmic problems from various websites
 
 ## CTCI
 
-[Problem 1.1 - isUnique](https://github.com/yashtanna93/Algorithms/blob/master/CTCI/IsUnique.java) 
+[Problem 1.1 - isUnique](https://github.com/yashtanna93/Algorithms/blob/master/CTCI/IsUnique.java)  
+[Problem 1.7 - Rotate Matrix](https://github.com/yashtanna93/Algorithms/blob/master/CTCI/RotateMatrix.java)
 
 ## LeetCode
 
